@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Maven {
 
     public static void main(String[] args) {
-        Scanner userInput = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Something: ");
-        String userChoice = userInput.nextLine();
+        String userChoice = sc.nextLine();
 
         System.out.printf("You Entered: \"%s\"", userChoice);
         System.out.println();
